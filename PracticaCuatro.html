@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layouts</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        header{
+            background-color:  rgb(146, 14, 14);
+            padding: 20px;
+            text-align: center;
+            font-size: 35px;
+            color: black;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        nav{
+            float: left;
+            width: 30%;
+            height: 300px;
+            background-color: rgb(187, 49, 49);
+            color: white;
+            padding: 20px;
+        }
+        nav ul{
+            list-style-type: none;
+            padding: 0;
+        }
+        article{
+            float: left;
+            padding: 20px;
+            width: 70%;
+            background-color: rgb(221, 112, 112);
+            height: 300px;
+        }
+        section::after{
+        content:"";
+        display: table;
+        clear: both;
+        }
+        footer{
+            background-color:  rgb(158, 85, 85);
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+        @media(max-width: 600px){
+        nav, article {
+            width: 100%;
+            height: auto;
+        }
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <h2>Rebelde</h2>
+    </header>
+    <section>
+        <nav>
+            <ul>
+                <li><a href="https://g.co/kgs/UWfJKZ">Inalcanzable C.U</a></li>
+                <li><a href="https://g.co/kgs/CtoHAu">Inalcanzable RBD</a></li>
+                <li><a href="https://www.quedeletras.com/letra-inalcanzable/rbd/96304.html">Inalcanzable Letra</a></li>
+            </ul>
+        </nav>
+        <article>
+            <h1>Lista</h1>
+            <p> <li> Inalcanzable como estrella tan distante</li> </p>
+            <p> <li> Un amor casi imposible</li> </p>
+            <p> <li> Invisible como el aire, te me has vuelto Inalcanzable</li> </p>
+        </article>
+    </section>
+    <footer>
+        <p>Alumna: Carol Elizabeth Casas Valdez - Practica 4 - 08/02/23  &copy; 2023</p>
+    </footer>
+</body>
+</html>
