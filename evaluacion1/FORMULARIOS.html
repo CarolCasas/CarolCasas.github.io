@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIOS</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="EVALUACION_PARCIAL1_CSS.css">
+</head>
+<body>
+    
+    <img src="instagramtext3.png" alt="" class="image" height="80px" width="300px">
+
+    <div class="formulario">
+        <form id="miformualario" method="post" action="send" novalidate>
+            <label for="nombre">Nombre: </label>
+            <input type="text" name="nombre" id="nombre" placeholder="Tu nombre" required/><br>
+            <label for="Nacimiento" style="margin-top: 15px;">Nacimiento: </label>
+            <input type="date" required=""><br>
+            <label for="correo" style="margin-top: 15px;">Correo Electronico: </label>
+            <input type="text" name="nombre" id="correo" placeholder="Tu Correo Electronico" required/><br>
+            <label for="Contrasena" style="margin-top: 15px;">Contraseña: </label>
+            <input type="text" name="Contrasena" id="Contrasena" placeholder="Crea una contrasena" required/><br>
+            <label for="Contrasena" style="margin-top: 15px;">Verifica Contraseña: </label>
+            <input type="text" name="Contrasena" id="Contrasena" placeholder="Verifica tu contrasena" required/><br>
+        </form>
+    </div>
+
+    <button class="botun">CONTINUAR</button>
+    <button class="botun2" onclick="location.href='TRABAJO_EVALUACION_PARCIAL1.html'">REGRESAR</button>
+
+    <script src="js/jquery-3.6.3.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>

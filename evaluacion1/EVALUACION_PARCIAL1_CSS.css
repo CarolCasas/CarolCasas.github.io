@@ -1,0 +1,134 @@
+body{
+    background: #1c1e21;
+    color: #fff;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+}
+.barralateral{
+    background: #1c1e21;
+    color: #fff;
+    border: #1c1e21;
+    margin-top: 30px;
+}
+.lineavertical{
+    height: 625px;
+    width: 300px;
+    background-color: #1c1e21;
+    border: 2px solid #1c1e21;
+    border-right-color: #212427; 
+}
+.botones{
+    position: absolute;
+    top: 100px;
+    left: 1030px;
+}
+.morat{
+    position: absolute;
+    top: 100px;
+    left: 700px;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+.formulario{
+    position: absolute;
+    top: 190px;
+    left: 40%;
+    padding: 10px;
+    margin-top: 4px;
+    color: #fff;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    border: 3px solid #3f4347;
+    border-radius: 5px;
+    border-spacing: 5px;
+}
+.image{
+    position: absolute;
+    top: 70px;
+    left: 40%;
+}
+.botun{
+    position: absolute;
+    top: 430px;
+    left: 560px;
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: rgb(94, 175, 241);
+    border-color: rgb(75, 149, 209);;
+}
+.botun2{
+    position: absolute;
+    top: 430px;
+    left: 750px;
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: rgb(129, 140, 148);
+    border-color: rgb(44, 47, 49);;
+}
+.fotocircular {
+    border-radius: 50%;
+    position: absolute;
+    top: 100px;
+    left: 350px;
+    width: 235px;
+    height: 220px;
+}
+.infocuenta{
+    position: absolute;
+    top: 170px;
+    left: 690px;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    padding: 10px;
+}
+.bio{
+    position: absolute;
+    top: 225px;
+    left: 690px;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    padding: 10px;
+}
+.linea{
+    position: absolute;
+    top: 400px;
+    left: 400px;
+    border: 1px solid #2e3135;
+    width: 800px;
+}
+.abajo{
+    position: absolute;
+    top: 400px;
+    left: 558px;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    padding: 10px;
+}
+.foto1{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    top: 450px;
+    left: 400px;
+}
+.foto2{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    top: 450px;
+    left: 680px;
+}
+.foto3{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    top: 450px;
+    left: 950px;
+}
+
