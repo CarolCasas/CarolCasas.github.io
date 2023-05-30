@@ -10,22 +10,23 @@
 <body style="background-color: #F3E5FC;" >
     <div class="container"><br>
         <center><h1>Registro de alumno</h1></center><hr>
-        <form action="">
+        <form action="Practica2.php" method="get">
             <div class="form-group">
                 <label for="">Nombre</label>
-                <input name="nombre" type="text" class="form-control">
+                <input name="nombre" type="text" class="form-control" required>
             </div><br>
             <div class="form-group">
                 <label for="">Edad</label>
-                <input name="edad" type="number" class="form-control">
+                <input name="edad" type="number" class="form-control" required>
             </div><br>
             <div class="form-group">
                 <label for="">Escuela</label>
-                <select name="" id="">
+                <select name="escuela" class="form-control" required >
+                <form action="Practica2.php" method="get">
                 <option value="">Selecciona una escuela</option>
-                <option value="CETis107">Cetis 107</option>
-                <option value="CBTIS 224">Cbtis 224</option>
-                <option value="COBAES">Cobaes 27</option>
+                <option value="CETis107">CETIS 107</option>
+                <option value="CBTIS 224">CBTIS 224</option>
+                <option value="COBAES">COBAES 27</option>
                 <option value="UAS Flores Magon">UAS Flores Magon</option>
                 <option value="UAS Central">UAS Central</option>
                 <option value="UAS Zapata">UAS Zapata</option>
@@ -34,11 +35,14 @@
             </div><br>
             <div class="form-group">
                 <label for="">Fecha de ingreso</label>
-                <input name="fecha" type="date" class="form-control">
+                <input name="fecha_ingreso" type="date" class="form-control">
             </div><br>
             <div class="form-group">
-                <label for="">Dirección</label>
-                <textarea name="direccion" id="" cols="30" rows="4" class="form-control"></textarea>
+                <label for="">Dirección</label><br>
+                <textarea name="direccion" id="" cols="30" rows="4"></textarea>
+            </div><br>
+            <div class="form-group">
+                <input type="submit" class="btn btn-primary">
             </div><br>
         </form>
     </div>
